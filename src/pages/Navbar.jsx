@@ -38,7 +38,7 @@ const Navbar = () => {
           </li>
           <li>
             <a href="#buy" onClick={closeMenu}  className="hover:text-orange-400 cursor-pointer">
-              Buy
+              Socials
             </a>
           </li>
         </ul>

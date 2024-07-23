@@ -7,7 +7,7 @@ import Tokenomics from "./pages/Tokenomics";
 
 function App() {
   return (
-    <div className="m-2">
+    <div>
       <Navbar />
       <Hero />
       <About />
