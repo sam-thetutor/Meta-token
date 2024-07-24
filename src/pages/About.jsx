@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import MetaImage from "../assets/meta-2.png";
 
 const About = () => {
@@ -9,25 +9,43 @@ const About = () => {
     >
       {/* Image Section */}
       <div className="flex justify-center items-center w-full md:w-1/2 mb-8 md:mb-0">
-        <img src={MetaImage} alt="Meta Owl" className="h-[300px] md:h-[500px] rounded-full w-[300px] md:w-[500px]" />
+        <img
+          src={MetaImage}
+          alt="Meta Owl"
+          className="h-[300px] md:h-[500px] rounded-full w-[300px] md:w-[500px]"
+        />
       </div>
 
       {/* Text Section */}
       <div className="flex flex-col w-full md:w-1/2 justify-center items-center md:items-start">
         <div className="p-4 md:p-36 flex flex-col items-center md:items-start gap-2">
-          <h2 className="text-4xl md:text-6xl font-bold uppercase text-center md:text-left">About Meta Owl</h2>
-          <span className="line mb-2"></span>
-          <p className="text-center md:text-left">
-            Meta Owl Token will stay relevant through partnerships created and
-            fostered by Meta Owl and the Meta Owl Community. We are yet to make
-            a dapp but it is not out of the question. We will add function as
-            ICP grows and the functions arise.
+          <h2 className="text-3xl md:text-4xl font-bold uppercase text-start">
+            About Meta Owl
+          </h2>
+          <p className="text-start">
+            Meta Owl Token stands out as the first Creator token on the ICP
+            Blockchain. Our commitment to innovation and our community-driven
+            approach sets us apart from other projects. We focus on steady,
+            sustainable growth, ensuring that every step we take benefits our
+            community. Community is at the heart of Meta Owl Token. We believe
+            in the power of collaboration and actively seek partnerships with
+            other projects and artists to enhance our ecosystem. 
+            </p>
+            <p>
+            Our community
+            members are encouraged to get involved, contribute ideas, and
+            participate in the growth of Meta Owl Token. We invite you to join
+            us on this exciting journey. Whether you are a creator, an
+            enthusiast, or someone who believes in the potential of blockchain
+            technology, there is a place for you in the Meta Owl Token
+            community. Together, we can achieve great things and push the
+            boundaries
           </p>
-          <button className="border p-3 rounded-3xl mt-4">Explore More</button>
+          {/* <button className="border p-3 rounded-3xl mt-4">Explore More</button> */}
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default About;

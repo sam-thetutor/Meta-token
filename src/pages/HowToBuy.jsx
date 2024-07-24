@@ -14,20 +14,20 @@ const HowToBuy = () => {
       <h2 className="uppercase text-5xl md:text-7xl text-center font-bold">
         Revolution Now
       </h2>
-      <button className="border text-3xl rounded-full p-2 hover:bg-orange-500">
+      <button className="border text-3xl rounded-full mt-4 p-2 hover:bg-orange-500">
         <a
-          href="https://info.icpswap.com/swap/token/details/k762w-hiaaa-aaaai-qpfpq-cai"
+          href="https://app.icpswap.com/swap?input=ryjl3-tyaaa-aaaaa-aaaba-cai&output=k762w-hiaaa-aaaai-qpfpq-cai"
           target="_blank"
           rel="noopener noreferrer"
         >
           Buy OWL
         </a>
       </button>
-      <span className="text-center mt-2">
+      <span className="text-center mt-6">
         Follow us on our social media handles
       </span>
 
-      <ul className="flex justify-center items-center gap-6 mt-4">
+      <ul className="flex justify-center items-center gap-6 mt-2">
         <li>
           <a
             href="https://x.com/Meta_Owl_Token"

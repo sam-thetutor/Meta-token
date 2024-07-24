@@ -20,7 +20,7 @@ const Navbar = () => {
         </div>
 
         {/* Menu Items */}
-        <ul className={`flex-col text-2xl md:flex-row md:flex md:gap-4 absolute md:static ml-6 md:bg-transparent transition-all duration-300 ease-in-out ${click ? 'top-16 left-0 w-full' : 'top-[-200px] md:top-0 md:w-auto'}`}>
+        <ul className={`flex-col text-xl md:flex-row md:flex md:gap-4 absolute md:static ml-6 md:bg-transparent transition-all duration-300 ease-in-out ${click ? 'top-16 left-0 w-full' : 'top-[-200px] md:top-0 md:w-auto'}`}>
           <li>
             <a href="#hero" onClick={closeMenu} className=" hover:text-orange-500 cursor-pointer">
               Home
