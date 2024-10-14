@@ -12,7 +12,7 @@ const About = () => {
         <img
           src={MetaImage}
           alt="Meta Owl"
-          className="h-[300px] md:h-[500px] rounded-full w-[300px] md:w-[500px]"
+          className="h-[250px] md:h-[350px] rounded-full w-[250px] md:w-[350px]"
         />
       </div>
 
